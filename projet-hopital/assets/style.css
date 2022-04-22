@@ -2,10 +2,13 @@
     background-color: #2F9CEB;
 }
 
-
-.center{
+.text{
     text-align: center;
     align-items: center;
+    color: #fff;
+}
+.img{
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -31,3 +34,24 @@ a{
 }
 
 /* fin pour le bouton se connecter */
+
+/* partie du footer.*/
+footer 
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0px;
+	text-align: center;
+    background: #002233;
+    border-bottom: 0px;
+    border-color: #474747;
+    box-shadow: -5px 5px 10px 5px #00000070;
+    color: #fff;
+}
+footer label 
+{
+    margin-left: 50px;
+    font-weight: bold;
+}
+/*  fin de la partie du footer*/
